@@ -71,7 +71,6 @@ public class Demo02 {
 
         panel2.add(button4);
         panel2.add(label2);
-
         panel.add(label);
         panel.add(textField);
         panel.add(button1);
