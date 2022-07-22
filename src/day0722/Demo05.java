@@ -20,4 +20,5 @@ public class Demo05 {
             }
         }while(guess!=num); //2
 
-    }}
+    }
+}

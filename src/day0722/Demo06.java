@@ -25,5 +25,7 @@ public class Demo06 {
             }
         }
         System.out.println("总分为:" + score);
+
+
     }
 }
