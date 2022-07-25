@@ -8,5 +8,6 @@ public class Demo03 {
         double d = 5;
         int x = 2;
         System.out.println(d/x);
+
     }
 }
