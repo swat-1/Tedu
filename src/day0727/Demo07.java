@@ -16,12 +16,28 @@ public class Demo07 {
             cards[i + 13 + 13] = "♣" + rank[i];
             cards[i + 13 + 13 + 13] = "♦" + rank[i];
         }
+
+
+
+
         for (int i = 0; i < cards.length; i++) {
-            int n = random.nextInt(cards.length);//0-54
+            int n = random.nextInt(cards.length);//0-53
             String temp = cards[i];
             cards[i] = cards[n];
             cards[n] = temp;
         }
+        for (int i = cards.length - 1; i > 0; i--) {
+            int n = random.nextInt(i);//53 --
+            String temp = cards[i];
+            cards[i] = cards[n];
+            cards[n] = temp;
+        }
+
+
+
+
+
+
         for (int i = 0; i < cards.length; i++) {
             System.out.print(cards[i]);
         }
@@ -50,8 +66,8 @@ public class Demo07 {
         }
         System.out.println();
 
-        for (int i = 0; i <3; i++) {
-            System.out.print(cards[53-i] + " ");
+        for (int i = 0; i < 3; i++) {
+            System.out.print(cards[53 - i] + " ");
         }
     }
 
