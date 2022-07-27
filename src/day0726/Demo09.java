@@ -4,6 +4,7 @@ import sun.management.Agent;
 
 public class Demo09 {
     public static void main(String[] args) {
+
         for (int age = 0; age < 100; age++) {
             if(age == 8){
                 int time =5;
